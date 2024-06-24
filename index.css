@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "fuente_unown";
+    src: url(./Files/fonts/unown\ font/unown.ttf);
+}
+@font-face {
+    font-family: "fuente_principal";
+    src: url(./Files/fonts/kode\ mono\ font/KodeMono-VariableFont_wght.ttf);
+}
+body {
+    background-color: blue;
+}
+.nav_bar {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 14px;
+    justify-content: space-between;
+    border-radius: 6px;    
+    height: 4vh;
+}
+.nav_boton {
+    display: flex;
+    justify-content: center;
+}
+.nav_boton a {
+    text-decoration: none;
+    font-family: "fuente_principal";
+    size: 20px;
+    color: black;
+}  
+.front {
+    background-color: yellow;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    height: 88vh;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.front_text{
+    width: 16vw;
+}
+.front_imagen {
+    width: 76vw;
+}
+.front_imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
